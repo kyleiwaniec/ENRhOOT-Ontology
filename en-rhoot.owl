@@ -2345,7 +2345,11 @@ Returning to and providing additional detail for items mentioned previously (oft
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epenthese</ont:Name>
         <ont:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Nahmest du statt nahmst du&quot; (aus rhythmischen Gruenden)</ont:isExample>
         <ont:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Zeitlaeufte statt Zeitlaeufe&quot; (Archaisierende Wirkung)</ont:isExample>
+        <ont:isExample xml:lang="en">When &quot;realtor&quot; is pronounced &quot;realator&quot;</ont:isExample>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Einschub eines Lautes in der Regel aus phonologischen Gruenden (Metzler)</rdfs:comment>
+        <rdfs:comment xml:lang="en">The addition of a letter, sound, or syllable to the middle of a word. A kind of metaplasm.
+ 	
+Note: Epenthesis is sometimes employed in order to accommodate meter in verse; sometimes, to facilitate easier articulation of a word&apos;s sound. It can, of course, be accidental, and a vice of speech.</rdfs:comment>
         <rdfs:label xml:lang="sr">Epenteza</rdfs:label>
         <rdfs:label xml:lang="de">Epenthese</rdfs:label>
         <rdfs:label xml:lang="en">Epenthesis</rdfs:label>
@@ -2457,7 +2461,9 @@ Note: If the description is given in place of the name, instead of in addition t
         <ont:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;eulenaeugige Athene&quot;</ont:isExample>
         <ont:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;gruene Wiese&quot;</ont:isExample>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ein schmueckendes Beiwort in formelhafter Verwendung, haeufig bei Homer (Berner)</rdfs:comment>
-        <rdfs:comment xml:lang="en">ornans: adorning, decorating. (figuratively) honoring, commending, praising.</rdfs:comment>
+        <rdfs:comment xml:lang="en">epitheton: Attributing to a person or thing a quality or description—sometimes by the simple addition of a descriptive adjective; sometimes through a descriptive or metaphorical apposition.
+
+ornans: adorning, decorating. (figuratively) honoring, commending, praising.</rdfs:comment>
         <rdfs:label xml:lang="en">Epitheton Ornans</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Epitheton Ornans</rdfs:seeAlso>
     </owl:NamedIndividual>
@@ -2603,7 +2609,8 @@ Note: If the description is given in place of the name, instead of in addition t
 
     <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#Ganz-mit-Unterbrechung">
         <rdf:type rdf:resource="https://ramonakuehn.de/grhoot.owl#LinguisticPosition"/>
-        <rdfs:label>Ganz-mit-Unterbrechung</rdfs:label>
+        <rdfs:label xml:lang="de">Ganz-mit-Unterbrechung</rdfs:label>
+        <rdfs:label xml:lang="en">Whole-With-Interruption</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2612,7 +2619,8 @@ Note: If the description is given in place of the name, instead of in addition t
 
     <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#Ganze-Nacheinander_ohne_Konjunktion">
         <rdf:type rdf:resource="https://ramonakuehn.de/grhoot.owl#LinguisticPosition"/>
-        <rdfs:label>Ganze-Nacheinander ohne Konjunktion</rdfs:label>
+        <rdfs:label xml:lang="de">Ganze-Nacheinander ohne Konjunktion</rdfs:label>
+        <rdfs:label xml:lang="en">Whole-Succession-Without-Conjunction</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2621,7 +2629,8 @@ Note: If the description is given in place of the name, instead of in addition t
 
     <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#Ganze-Nachfolgend">
         <rdf:type rdf:resource="https://ramonakuehn.de/grhoot.owl#LinguisticPosition"/>
-        <rdfs:label>Ganze-Nachfolgend</rdfs:label>
+        <rdfs:label xml:lang="de">Ganze-Nachfolgend</rdfs:label>
+        <rdfs:label xml:lang="en">Whole-Succession</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2631,6 +2640,7 @@ Note: If the description is given in place of the name, instead of in addition t
     <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#Ganze-Nachfolgend_mit_Konjunktion">
         <rdf:type rdf:resource="https://ramonakuehn.de/grhoot.owl#LinguisticPosition"/>
         <rdfs:label>Ganze-Nachfolgend-mit-Konjunktion</rdfs:label>
+        <rdfs:label xml:lang="en">Whole-Succession-With-Conjunction</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2711,9 +2721,14 @@ Note: If the description is given in place of the name, instead of in addition t
         <ont:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;immer und ewig&quot;</ont:isExample>
         <ont:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;in Eisen und Ruestung&quot;</ont:isExample>
         <ont:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;nie und nimmer&quot;</ont:isExample>
+        <ont:isExample xml:lang="en">He came despite the rain and weather.
+(Instead of &quot;He came despite the rainy weather&quot;)</ont:isExample>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eins durch zwei; Wiedergabe einer Vorstellung durch zwei gleichwertige, mit „und“ verbundene Woerter, wobei die Nebenordnung die logische Unterordnung ersetzt, oder wo zwei mit „und“ verbundene Nomen ein Nomen mit Genitiv- od. Adjektivattribut ersetzen oder wo zwei synonyme Nomina statt eines einzigen Nomens gesetzt werden. (Berner)</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hendiadyoin</rdfs:label>
-        <rdfs:seeAlso xml:lang="en">Hendiadys</rdfs:seeAlso>
+        <rdfs:comment xml:lang="en">Expressing a single idea by two nouns instead of a noun and its qualifier. A method of amplification that adds force.
+
+from Gk. hen, &quot;one&quot; dia, &quot;through&quot; dis, &quot;two&quot; (&quot;one by means of two&quot;)</rdfs:comment>
+        <rdfs:label xml:lang="de">Hendiadyoin</rdfs:label>
+        <rdfs:label xml:lang="en">Hendiadys</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3473,7 +3488,8 @@ Z.B. &quot;tote Metaphern&quot;: Tischbein; oder &quot;Auch ein blindes Huhn leg
 
     <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#Mitte">
         <rdf:type rdf:resource="https://ramonakuehn.de/grhoot.owl#LinguisticPosition"/>
-        <rdfs:label>Mitte</rdfs:label>
+        <rdfs:label xml:lang="en">Center</rdfs:label>
+        <rdfs:label xml:lang="de">Mitte</rdfs:label>
     </owl:NamedIndividual>
     
 
