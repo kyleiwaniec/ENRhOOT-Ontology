@@ -669,13 +669,13 @@ spans</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#LinguisticGroup"/>
             </owl:Restriction>
         </rdf:type>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#PHRASENOBJEKT"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#SENTENCE"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#WORDOBJECT"/>
-        <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#SEMANTIC"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Sentence"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Wordobject"/>
+        <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
         <ont:isReplacedByAnotherElementOfOppositeMeaning rdf:resource="https://ramonakuehn.de/grhoot.owl#Word_Element"/>
         <ont:isRhetoricalGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#TROPE"/>
-        <ont:spans rdf:resource="https://ramonakuehn.de/grhoot.owl#SENTENCE"/>
+        <ont:spans rdf:resource="https://ramonakuehn.de/grhoot.owl#Sentence"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accismus</ont:Name>
         <ont:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Das Geschenk kann ich wirklich nicht annehmen!”</ont:isExample>
         <ont:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Das hat er nicht wirklich gesagt.”</ont:isExample>
@@ -705,13 +705,13 @@ spans</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetoricalGroup"/>
             </owl:Restriction>
         </rdf:type>
-        <ont:AnotherElementOfGreaterImportanceIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#PHRASENELEMENT"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#PHRASENOBJEKT"/>
+        <ont:AnotherElementOfGreaterImportanceIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase_Element"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole-Succession"/>
-        <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#SEMANTIC"/>
+        <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
         <ont:isRhetoricalGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#BETONUNGSFIGUR"/>
-        <ont:spans rdf:resource="https://ramonakuehn.de/grhoot.owl#SENTENCE"/>
-        <ont:spans rdf:resource="https://ramonakuehn.de/grhoot.owl#VERSE"/>
+        <ont:spans rdf:resource="https://ramonakuehn.de/grhoot.owl#Sentence"/>
+        <ont:spans rdf:resource="https://ramonakuehn.de/grhoot.owl#Verse"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Akkumulatio</ont:Name>
         <ont:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ihre Anzahl ist Legion: Staatsraete und Regierungsraete, Landraete und Kreisraete, Geistliche Raete und Schulraete, Finanzraete und Forstraete usw.&quot; (Georg Buechner: Der hessische Landbote)</ont:isExample>
         <ont:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Mord! Zeter! Jammer! Angst! Creutz! Marter! Wuerme! Plagen!&quot; (Andreas Gryphius: Die Hoelle)</ont:isExample>
@@ -740,7 +740,7 @@ spans</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetoricalGroup"/>
             </owl:Restriction>
         </rdf:type>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Sentenceobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Verseobject"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Pragmatic"/>
@@ -865,7 +865,7 @@ Alliteration is a literary device that reflects repetition in two or more nearby
         </rdf:type>
         <ont:anotherElementOfSimilarMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase_Element"/>
         <ont:anotherElementOfSimilarMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Word_Element"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Wordobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
@@ -903,7 +903,7 @@ Eine Anspielung auf kuenstlerische Werke, Personen oder historische, oft zeitges
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetoricalGroup"/>
             </owl:Restriction>
         </rdf:type>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Wordobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
@@ -943,7 +943,7 @@ Amphiboly is a fallacy of relevance that relies on an ambiguous word or grammati
         </rdf:type>
         <ont:AnotherElementOfGreaterImportanceIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase_Element"/>
         <ont:AnotherElementOfGreaterImportanceIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Sentence_Element"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Satz"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
         <ont:isRhetoricalGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#FigureOfThought"/>
@@ -976,7 +976,7 @@ Amphiboly is a fallacy of relevance that relies on an ambiguous word or grammati
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetoricalGroup"/>
             </owl:Restriction>
         </rdf:type>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Wordobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Syntactic"/>
@@ -1052,7 +1052,7 @@ Tugend Ruhm, sein Ruhm Nebenbuhler” (Helmut Glueck: Metzler Lexikon Sprache)</
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetoricalGroup"/>
             </owl:Restriction>
         </rdf:type>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Verseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Wordobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole"/>
@@ -1133,7 +1133,7 @@ wir brauchen…&quot; (Bertold Brecht: Die Mutter)</ont:isExample>
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetoricalGroup"/>
             </owl:Restriction>
         </rdf:type>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Syntactic"/>
         <ont:isRhetoricalGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#FigureOfSpeech"/>
@@ -1205,7 +1205,7 @@ Wortspiel aus der Lautaehnlichkeit zweier Woerter oder der aehnlichkeit *eines* 
         </rdf:type>
         <ont:AnotherElementOfFigurativeMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase_Element"/>
         <ont:AnotherElementOfFigurativeMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Word_Element"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Wordobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
@@ -1242,7 +1242,7 @@ Wortspiel aus der Lautaehnlichkeit zweier Woerter oder der aehnlichkeit *eines* 
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetoricalGroup"/>
             </owl:Restriction>
         </rdf:type>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Sentenceobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Verseobject"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
@@ -1325,7 +1325,7 @@ Gradation (Stufenfolge) nach unten (anit: gegen, climax: Leiter, Treppe). (Berne
         </rdf:type>
         <ont:anotherElementOfOppositeMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase_Element"/>
         <ont:anotherElementOfOppositeMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Word_Element"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Wordobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
@@ -1374,7 +1374,7 @@ Gradation (Stufenfolge) nach unten (anit: gegen, climax: Leiter, Treppe). (Berne
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetoricalGroup"/>
             </owl:Restriction>
         </rdf:type>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Sentenceobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Verseobject"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Pragmatic"/>
@@ -1533,7 +1533,7 @@ How can you say to me I am a king?</ont:isExample>
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetoricalGroup"/>
             </owl:Restriction>
         </rdf:type>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Wordobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Ende"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
@@ -1574,7 +1574,7 @@ How can you say to me I am a king?</ont:isExample>
             </owl:Restriction>
         </rdf:type>
         <ont:AnotherElementOfGreaterImportanceIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase_Element"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Anfang"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Pragmatic"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
@@ -1686,7 +1686,7 @@ How can you say to me I am a king?</ont:isExample>
         </rdf:type>
         <ont:AnotherElementOfDifferentMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Word_Element"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Sentenceobject"/>
-        <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Ganze-Nacheinander_ohne_Konjunktion"/>
+        <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole-Succession-Without-Conjunction"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Syntactic"/>
         <ont:isRhetoricalGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#FigureOfConstruction"/>
         <ont:spans rdf:resource="https://ramonakuehn.de/grhoot.owl#Satz"/>
@@ -1726,7 +1726,7 @@ Winston Churchill</ont:isExample>
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetoricalGroup"/>
             </owl:Restriction>
         </rdf:type>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Sentenceobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Verseobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Anfang-und-Ende"/>
@@ -1821,7 +1821,7 @@ WALTER: Oder Schulmeister.&quot; (Heinrich von Kleist)</ont:isExample>
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetoricalGroup"/>
             </owl:Restriction>
         </rdf:type>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Sentenceobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Verseobject"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Pragmatic"/>
@@ -1869,7 +1869,7 @@ WALTER: Oder Schulmeister.&quot; (Heinrich von Kleist)</ont:isExample>
             </owl:Restriction>
         </rdf:type>
         <ont:anotherElementOfOppositeMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase_Element"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole-Symetric"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Syntactic"/>
@@ -2060,7 +2060,7 @@ Ein fingiertes Frage- Antwortspiel zur Spannungssteigerung, der Fragende beantwo
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetoricalGroup"/>
             </owl:Restriction>
         </rdf:type>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Wordobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
@@ -2146,7 +2146,7 @@ Ausstoßung eines auslautenden unbetonten Vokals (Berner)</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetoricalGroup"/>
             </owl:Restriction>
         </rdf:type>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Wordobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Syntactic"/>
@@ -2375,7 +2375,7 @@ The switching of grammatical forms for an expressive purpose.</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetoricalGroup"/>
             </owl:Restriction>
         </rdf:type>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole-Symetric"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Syntactic"/>
@@ -2457,7 +2457,7 @@ Note: Epenthesis is sometimes employed in order to accommodate meter in verse; s
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetoricalGroup"/>
             </owl:Restriction>
         </rdf:type>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Verseobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Ende"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Syntactic"/>
@@ -2534,7 +2534,7 @@ Note: If the description is given in place of the name, instead of in addition t
             </owl:Restriction>
         </rdf:type>
         <ont:AnotherElementOfFigurativeMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase_Element"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Pragmatic"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
         <ont:isRhetoricalGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#FigureOfSpeech"/>
@@ -2635,7 +2635,7 @@ ornans: adorning, decorating. (figuratively) honoring, commending, praising.</rd
             </owl:Restriction>
         </rdf:type>
         <ont:IsReplacedByAnotherElementOfLesserImportance rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase_Element"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
         <ont:isRhetoricalGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#TROPE"/>
@@ -2675,7 +2675,7 @@ His tongue is now a stringless instrument [meaning &quot;he died&quot;]
             </owl:Restriction>
         </rdf:type>
         <ont:anotherElementOfSimilarMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase_Element"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Sentenceobject"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
         <ont:isRhetoricalGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#FigureOfThought"/>
@@ -2709,7 +2709,6 @@ His tongue is now a stringless instrument [meaning &quot;he died&quot;]
     <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#FigureOfSpeech">
         <rdf:type rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetoricalGroup"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FigureOfSpeech</ont:Name>
-        <rdfs:comment xml:lang="en">figure of empahsis</rdfs:comment>
         <rdfs:label xml:lang="de">Betonungsfigur</rdfs:label>
         <rdfs:label xml:lang="en">figureOfSpeech</rdfs:label>
     </owl:NamedIndividual>
@@ -2722,36 +2721,6 @@ His tongue is now a stringless instrument [meaning &quot;he died&quot;]
         <rdf:type rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetoricalGroup"/>
         <rdfs:label xml:lang="de">Gedankenfigur</rdfs:label>
         <rdfs:label xml:lang="en">figureOfThought</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://ramonakuehn.de/grhoot.owl#Ganz-mit-Unterbrechung -->
-
-    <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#Ganz-mit-Unterbrechung">
-        <rdf:type rdf:resource="https://ramonakuehn.de/grhoot.owl#LinguisticPosition"/>
-        <rdfs:label xml:lang="de">Ganz-mit-Unterbrechung</rdfs:label>
-        <rdfs:label xml:lang="en">Whole-With-Interruption</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://ramonakuehn.de/grhoot.owl#Ganze-Nacheinander_ohne_Konjunktion -->
-
-    <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#Ganze-Nacheinander_ohne_Konjunktion">
-        <rdf:type rdf:resource="https://ramonakuehn.de/grhoot.owl#LinguisticPosition"/>
-        <rdfs:label xml:lang="de">Ganze-Nacheinander ohne Konjunktion</rdfs:label>
-        <rdfs:label xml:lang="en">Whole-Succession-Without-Conjunction</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://ramonakuehn.de/grhoot.owl#Ganze-Nachfolgend_mit_Konjunktion -->
-
-    <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#Ganze-Nachfolgend_mit_Konjunktion">
-        <rdf:type rdf:resource="https://ramonakuehn.de/grhoot.owl#LinguisticPosition"/>
-        <rdfs:label>Ganze-Nachfolgend-mit-Konjunktion</rdfs:label>
-        <rdfs:label xml:lang="en">Whole-Succession-With-Conjunction</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2903,7 +2872,7 @@ Note the series of verbs followed by an adverb ending in &quot;ly&quot;</ont:isE
         </rdf:type>
         <ont:AnotherElementOfDifferentMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase_Element"/>
         <ont:AnotherElementOfDifferentMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole-Succession"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Syntactic"/>
         <ont:isRhetoricalGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#FigureOfSpeech"/>
@@ -2987,7 +2956,7 @@ Das Umgestellte; Zwischenstellung eines Satzgliedes, das eigentlich an einer and
             </owl:Restriction>
         </rdf:type>
         <ont:AnotherElementOfGreaterImportanceIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase_Element"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole-Succession"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
         <ont:isRhetoricalGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#TROPE"/>
@@ -3134,7 +3103,7 @@ Verdrehung; vom normalen grammatischen Satzbau abweichende Umstellung von Satzgl
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetoricalGroup"/>
             </owl:Restriction>
         </rdf:type>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
         <ont:isReplacedByAnotherElementOfOppositeMeaning rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase_Element"/>
@@ -3248,7 +3217,7 @@ Z.B. &quot;tote Metaphern&quot;: Tischbein; oder &quot;Auch ein blindes Huhn leg
         <ont:IsReplacedByAnotherElementOfLesserImportance rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase_Element"/>
         <ont:IsReplacedByAnotherElementOfLesserImportance rdf:resource="https://ramonakuehn.de/grhoot.owl#Sentence_Element"/>
         <ont:IsReplacedByAnotherElementOfLesserImportance rdf:resource="https://ramonakuehn.de/grhoot.owl#Verse_Element"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Sentenceobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Verseobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole"/>
@@ -3463,7 +3432,7 @@ This term is equivalent to tapinosis.</rdfs:seeAlso>
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetoricalGroup"/>
             </owl:Restriction>
         </rdf:type>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Wordobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Phonetic"/>
@@ -3563,7 +3532,7 @@ This term is equivalent to tapinosis.</rdfs:seeAlso>
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetoricalGroup"/>
             </owl:Restriction>
         </rdf:type>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Wordobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Phonetic"/>
@@ -3625,18 +3594,6 @@ The &quot;zz&quot; and &quot;mm&quot; sounds in these words imitate the actual s
         <rdfs:label xml:lang="en">Oxymoron</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Paradox</rdfs:seeAlso>
     </owl:NamedIndividual>
-    
-
-
-    <!-- https://ramonakuehn.de/grhoot.owl#PHRASENELEMENT -->
-
-    <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#PHRASENELEMENT"/>
-    
-
-
-    <!-- https://ramonakuehn.de/grhoot.owl#PHRASENOBJEKT -->
-
-    <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#PHRASENOBJEKT"/>
     
 
 
@@ -3743,9 +3700,9 @@ allegory</rdfs:seeAlso>
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetoricalGroup"/>
             </owl:Restriction>
         </rdf:type>
-        <ont:anotherElementOfOppositeMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:anotherElementOfOppositeMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:anotherElementOfOppositeMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole-Succession"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
         <ont:isRhetoricalGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#FigureOfThought"/>
         <ont:spans rdf:resource="https://ramonakuehn.de/grhoot.owl#Satz"/>
@@ -3791,7 +3748,7 @@ allegory</rdfs:seeAlso>
             </owl:Restriction>
         </rdf:type>
         <ont:anotherElementOfOppositeMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase_Element"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Sentenceobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Anfang"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Pragmatic"/>
@@ -3828,7 +3785,7 @@ allegory</rdfs:seeAlso>
             </owl:Restriction>
         </rdf:type>
         <ont:AnotherElementOfDifferentMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase_Element"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
         <ont:isRhetoricalGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#FigureOfThought"/>
         <ont:spans rdf:resource="https://ramonakuehn.de/grhoot.owl#Satz"/>
@@ -3905,7 +3862,7 @@ allegory</rdfs:seeAlso>
         </rdf:type>
         <ont:AnotherElementOfDifferentMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase_Element"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Sentenceobject"/>
-        <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Ganz-mit-Unterbrechung"/>
+        <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole-With-Interruption"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Syntactic"/>
         <ont:isRhetoricalGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#FigureOfThought"/>
@@ -4054,7 +4011,7 @@ Ein Wort umbilden; Wortspiel aus der Klang- und Lautaehnlichkeit zweier stammver
         </rdf:type>
         <ont:AnotherElementOfFigurativeMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase_Element"/>
         <ont:AnotherElementOfFigurativeMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Word_Element"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Wordobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
@@ -4107,9 +4064,9 @@ Ein Wort umbilden; Wortspiel aus der Klang- und Lautaehnlichkeit zweier stammver
     
 
 
-    <!-- https://ramonakuehn.de/grhoot.owl#Phrasenobjekt -->
+    <!-- https://ramonakuehn.de/grhoot.owl#Phraseobject -->
 
-    <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt">
+    <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#Phraseobject">
         <rdf:type rdf:resource="https://ramonakuehn.de/grhoot.owl#LinguisticObject"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phrase</ont:Name>
         <rdfs:label xml:lang="en">Phraseobject</rdfs:label>
@@ -4136,7 +4093,7 @@ Ein Wort umbilden; Wortspiel aus der Klang- und Lautaehnlichkeit zweier stammver
         </rdf:type>
         <ont:AnotherElementOfSameLanguageMatchIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase_Element"/>
         <ont:AnotherElementOfSameLanguageMatchIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Word_Element"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Wordobject"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Morphological"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
@@ -4256,7 +4213,7 @@ Ein Wort umbilden; Wortspiel aus der Klang- und Lautaehnlichkeit zweier stammver
         </rdf:type>
         <ont:AnotherElementOfDifferentMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Word_Element"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Sentenceobject"/>
-        <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Ganze-Nachfolgend_mit_Konjunktion"/>
+        <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole-Succession-With-Conjunction"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Syntactic"/>
         <ont:isRhetoricalGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#FigureOfConstruction"/>
         <ont:spans rdf:resource="https://ramonakuehn.de/grhoot.owl#Satz"/>
@@ -4299,7 +4256,7 @@ Ein Wort umbilden; Wortspiel aus der Klang- und Lautaehnlichkeit zweier stammver
             </owl:Restriction>
         </rdf:type>
         <ont:anotherElementAsPositiveAnswerIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase_Element"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole-Succession"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Syntactic"/>
@@ -4422,7 +4379,7 @@ Vorwegnahme, die grammatische Vorwegnahme des Subjekts eines Gliedsatzes in den 
         </rdf:type>
         <ont:anotherElementOfSimilarMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase_Element"/>
         <ont:anotherElementOfSimilarMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Word_Element"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Wordobject"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Pragmatic"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
@@ -4455,8 +4412,8 @@ Vorwegnahme, die grammatische Vorwegnahme des Subjekts eines Gliedsatzes in den 
             </owl:Restriction>
         </rdf:type>
         <ont:connects rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase_Element"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
-        <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Ganze-Nachfolgend_mit_Konjunktion"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
+        <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole-Succession-With-Conjunction"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Syntactic"/>
         <ont:isRhetoricalGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#TROPE"/>
@@ -4544,18 +4501,6 @@ Vorwegnahme, die grammatische Vorwegnahme des Subjekts eines Gliedsatzes in den 
     
 
 
-    <!-- https://ramonakuehn.de/grhoot.owl#SEMANTIC -->
-
-    <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#SEMANTIC"/>
-    
-
-
-    <!-- https://ramonakuehn.de/grhoot.owl#SENTENCE -->
-
-    <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#SENTENCE"/>
-    
-
-
     <!-- https://ramonakuehn.de/grhoot.owl#Sarcasm -->
 
     <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#Sarcasm">
@@ -4610,6 +4555,12 @@ Vorwegnahme, die grammatische Vorwegnahme des Subjekts eines Gliedsatzes in den 
         <rdfs:label xml:lang="en">Semantic</rdfs:label>
         <rdfs:seeAlso xml:lang="de">Semantisch</rdfs:seeAlso>
     </owl:NamedIndividual>
+    
+
+
+    <!-- https://ramonakuehn.de/grhoot.owl#Sentence -->
+
+    <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#Sentence"/>
     
 
 
@@ -4744,7 +4695,7 @@ Alle Schmerzen, die unendlichen, ganz“. (Goethe: Alles fuer die Goetter)</ont:
                 <owl:someValuesFrom rdf:resource="https://ramonakuehn.de/grhoot.owl#RhetoricalGroup"/>
             </owl:Restriction>
         </rdf:type>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Pragmatic"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
         <ont:isRhetoricalGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#TROPE"/>
@@ -4899,7 +4850,7 @@ ein Satzglied ist auf ein anderes nicht nach der grammatischen Regel, sondern na
         </rdf:type>
         <ont:anotherElementOfSimilarMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Word_Element"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Wordobject"/>
-        <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Ganze-Nachfolgend_mit_Konjunktion"/>
+        <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole-Succession-With-Conjunction"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Syntactic"/>
         <ont:isRhetoricalGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#FigureOfSpeech"/>
         <ont:spans rdf:resource="https://ramonakuehn.de/grhoot.owl#Satz"/>
@@ -4954,9 +4905,9 @@ ein Satzglied ist auf ein anderes nicht nach der grammatischen Regel, sondern na
         </rdf:type>
         <ont:anotherElementOfSimilarMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrase_Element"/>
         <ont:anotherElementOfSimilarMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Word_Element"/>
-        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phrasenobjekt"/>
+        <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Phraseobject"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Wordobject"/>
-        <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Ganze-Nacheinander_ohne_Konjunktion"/>
+        <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole-Succession-Without-Conjunction"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Syntactic"/>
         <ont:isRhetoricalGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#FigureOfSpeech"/>
         <ont:spans rdf:resource="https://ramonakuehn.de/grhoot.owl#Satz"/>
@@ -5057,12 +5008,6 @@ Aus drei Kola [Satzgliedern] zusammengesetztes Satzgefuege (Duden)</rdfs:comment
     
 
 
-    <!-- https://ramonakuehn.de/grhoot.owl#VERSE -->
-
-    <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#VERSE"/>
-    
-
-
     <!-- https://ramonakuehn.de/grhoot.owl#Vergleich -->
 
     <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#Vergleich">
@@ -5081,7 +5026,7 @@ Aus drei Kola [Satzgliedern] zusammengesetztes Satzgefuege (Duden)</rdfs:comment
         </rdf:type>
         <ont:AnotherElementOfFigurativeMeaningIsAdded rdf:resource="https://ramonakuehn.de/grhoot.owl#Word_Element"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#Wordobject"/>
-        <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Ganze-Nachfolgend_mit_Konjunktion"/>
+        <ont:isInPosition rdf:resource="https://ramonakuehn.de/grhoot.owl#Whole-Succession-With-Conjunction"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Semantic"/>
         <ont:isRhetoricalGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#TROPE"/>
         <ont:spans rdf:resource="https://ramonakuehn.de/grhoot.owl#Satz"/>
@@ -5149,12 +5094,6 @@ Aus drei Kola [Satzgliedern] zusammengesetztes Satzgefuege (Duden)</rdfs:comment
     
 
 
-    <!-- https://ramonakuehn.de/grhoot.owl#WORDOBJECT -->
-
-    <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#WORDOBJECT"/>
-    
-
-
     <!-- https://ramonakuehn.de/grhoot.owl#Whole -->
 
     <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#Whole">
@@ -5175,12 +5114,42 @@ Aus drei Kola [Satzgliedern] zusammengesetztes Satzgefuege (Duden)</rdfs:comment
     
 
 
+    <!-- https://ramonakuehn.de/grhoot.owl#Whole-Succession-With-Conjunction -->
+
+    <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#Whole-Succession-With-Conjunction">
+        <rdf:type rdf:resource="https://ramonakuehn.de/grhoot.owl#LinguisticPosition"/>
+        <rdfs:label>Ganze-Nachfolgend-mit-Konjunktion</rdfs:label>
+        <rdfs:label xml:lang="en">Whole-Succession-With-Conjunction</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ramonakuehn.de/grhoot.owl#Whole-Succession-Without-Conjunction -->
+
+    <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#Whole-Succession-Without-Conjunction">
+        <rdf:type rdf:resource="https://ramonakuehn.de/grhoot.owl#LinguisticPosition"/>
+        <rdfs:label xml:lang="de">Ganze-Nacheinander ohne Konjunktion</rdfs:label>
+        <rdfs:label xml:lang="en">Whole-Succession-Without-Conjunction</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://ramonakuehn.de/grhoot.owl#Whole-Symetric -->
 
     <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#Whole-Symetric">
         <rdf:type rdf:resource="https://ramonakuehn.de/grhoot.owl#LinguisticPosition"/>
         <rdfs:label xml:lang="de">Ganze-Symmetrisch</rdfs:label>
         <rdfs:label xml:lang="en">Whole-Symetric</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ramonakuehn.de/grhoot.owl#Whole-With-Interruption -->
+
+    <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#Whole-With-Interruption">
+        <rdf:type rdf:resource="https://ramonakuehn.de/grhoot.owl#LinguisticPosition"/>
+        <rdfs:label xml:lang="de">Ganz-mit-Unterbrechung</rdfs:label>
+        <rdfs:label xml:lang="en">Whole-With-Interruption</rdfs:label>
     </owl:NamedIndividual>
     
 
