@@ -1,3 +1,7 @@
+# ENRhOOT-Ontology
+ENRhOOT is the English translation of GRhOOT. See below.
+The ontology can be downloaded here: https://kyleiwaniec.github.io/ENRhOOT-Ontology/en-rhoot.owl
+
 # GRhOOT-Ontology
 GRhOOT, the German RhetOrical OnTology, is a domain ontology of rhetorical figures in the German language.
 It contains the formal description of 108 rhetorical figures that exist in the German language and also shows examples for every figure. It is described in the file ```ghroot.owl```.
