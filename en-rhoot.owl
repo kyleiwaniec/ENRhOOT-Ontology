@@ -673,7 +673,7 @@ spans</rdfs:comment>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#SENTENCE"/>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#WORDOBJECT"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#SEMANTIC"/>
-        <ont:isReplacedByAnotherElementOfOppositeMeaning rdf:resource="https://ramonakuehn.de/grhoot.owl#WORDELEMENT"/>
+        <ont:isReplacedByAnotherElementOfOppositeMeaning rdf:resource="https://ramonakuehn.de/grhoot.owl#Word_Element"/>
         <ont:isRhetoricalGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#TROPE"/>
         <ont:spans rdf:resource="https://ramonakuehn.de/grhoot.owl#SENTENCE"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accismus</ont:Name>
@@ -5162,12 +5162,6 @@ Aus drei Kola [Satzgliedern] zusammengesetztes Satzgefuege (Duden)</rdfs:comment
         <rdfs:label xml:lang="en">Vocal</rdfs:label>
         <rdfs:label xml:lang="de">Vokal</rdfs:label>
     </owl:NamedIndividual>
-    
-
-
-    <!-- https://ramonakuehn.de/grhoot.owl#WORDELEMENT -->
-
-    <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#WORDELEMENT"/>
     
 
 
