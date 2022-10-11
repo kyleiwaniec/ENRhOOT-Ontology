@@ -674,7 +674,7 @@ spans</rdfs:comment>
         <ont:isInObject rdf:resource="https://ramonakuehn.de/grhoot.owl#WORDOBJECT"/>
         <ont:isLinguisticGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#SEMANTIC"/>
         <ont:isReplacedByAnotherElementOfOppositeMeaning rdf:resource="https://ramonakuehn.de/grhoot.owl#WORDELEMENT"/>
-        <ont:isRhetoricalGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#TROPENFIGUR"/>
+        <ont:isRhetoricalGroup rdf:resource="https://ramonakuehn.de/grhoot.owl#Trope"/>
         <ont:spans rdf:resource="https://ramonakuehn.de/grhoot.owl#SENTENCE"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accismus</ont:Name>
         <ont:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Das Geschenk kann ich wirklich nicht annehmen!”</ont:isExample>
@@ -4939,12 +4939,6 @@ ein Satzglied ist auf ein anderes nicht nach der grammatischen Regel, sondern na
         <rdfs:label xml:lang="en">Syntactic</rdfs:label>
         <rdfs:label xml:lang="de">Syntaktisch</rdfs:label>
     </owl:NamedIndividual>
-    
-
-
-    <!-- https://ramonakuehn.de/grhoot.owl#TROPENFIGUR -->
-
-    <owl:NamedIndividual rdf:about="https://ramonakuehn.de/grhoot.owl#TROPENFIGUR"/>
     
 
 
