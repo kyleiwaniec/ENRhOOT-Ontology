@@ -284,7 +284,7 @@
     <owl:ObjectProperty rdf:about="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#isRepeated">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:label xml:lang="en">isRepeated</rdfs:label>
-        <rdfs:label xml:lang="de">wirdWiederholt</rdfs:label>
+        <rdfs:label>wirdWiederholt</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -645,16 +645,6 @@ spans</rdfs:comment>
         <rdf:type rdf:resource="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#LinguisticOperation"/>
         <rdfs:label xml:lang="en">Transposition</rdfs:label>
         <rdfs:label xml:lang="de">Umstellung</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#Abbreviation -->
-
-    <owl:NamedIndividual rdf:about="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#Abbreviation">
-        <rdf:type rdf:resource="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#LinguisticOperation"/>
-        <rdfs:label xml:lang="en">Abbreviation</rdfs:label>
-        <rdfs:label xml:lang="de">Verkuerzung</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4628,6 +4618,31 @@ The progymnasmata exercise, impersonation.</rdfs:comment>
     
 
 
+    <!-- https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#Substitution -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#Substitution">
+        <rdf:type rdf:resource="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#LinguisticOperation"/>
+        <rdfs:label xml:lang="en">Substitution</rdfs:label>
+        <rdfs:label xml:lang="de">Uebertragung</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#Subtraction -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#Subtraction">
+        <rdf:type rdf:resource="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#LinguisticOperation"/>
+        <rdfs:comment xml:lang="en">Four categories of change according to http://rhetoric.byu.edu/ are:
+addition
+subtraction
+transposition
+substitution</rdfs:comment>
+        <rdfs:label xml:lang="en">Subtraction</rdfs:label>
+        <rdfs:label xml:lang="de">Verkuerzung</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#Syllepsis -->
 
     <owl:NamedIndividual rdf:about="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#Syllepsis">
@@ -4983,16 +4998,6 @@ This is the place where Christ will come, as will here appear after.</ont:isExam
     
 
 
-    <!-- https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#Translation -->
-
-    <owl:NamedIndividual rdf:about="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#Translation">
-        <rdf:type rdf:resource="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#LinguisticOperation"/>
-        <rdfs:label xml:lang="en">Translation</rdfs:label>
-        <rdfs:label xml:lang="de">Uebertragung</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#Tricolon -->
 
     <owl:NamedIndividual rdf:about="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#Tricolon">
@@ -5210,8 +5215,8 @@ Aus drei Kola [Satzgliedern] zusammengesetztes Satzgefuege (Duden)</rdfs:comment
         <ont:isExample xml:lang="en">&quot;He works his work, I mine&quot;</ont:isExample>
         <ont:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ich gehe aus, Baptist! Vor allem davon, dass Sie mir auf meine Talerchen achten!” (Dagobert Duck)</ont:isExample>
         <ont:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ich heiße nicht nur Heinz Erhardt, sondern Sie auch herzlich willkommen.” (Heinz Ehrhardt)</ont:isExample>
+        <rdfs:comment xml:lang="en">From the Greek word ζεύγμα, meaning &apos;yoke&apos;. A figure of speech in which one word applies to two others in different senses of that word, and in some cases only logically applies to one of the other two words. This is a similar concept to syllepsis.</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">die Verbindung zweier Nomina durch ein Verb, das, da doppelsinnig, sinngemaeß nur zu einem passt. (Berner)</rdfs:comment>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">From the Greek word ζεύγμα, meaning &apos;yoke&apos;. A figure of speech in which one word applies to two others in different senses of that word, and in some cases only logically applies to one of the other two words. This is a similar concept to syllepsis.</rdfs:label>
         <rdfs:label xml:lang="de">Zeugma</rdfs:label>
         <rdfs:label xml:lang="en">Zeugma</rdfs:label>
         <rdfs:label xml:lang="sr">Zeugma</rdfs:label>
@@ -5237,8 +5242,8 @@ Aus drei Kola [Satzgliedern] zusammengesetztes Satzgefuege (Duden)</rdfs:comment
      -->
 
     <rdf:Description rdf:about="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#isRhetoricalGroup">
-        <rdfs:label xml:lang="en">isRhetoricalGroup</rdfs:label>
         <rdfs:label xml:lang="de">istRhetorischeGruppe</rdfs:label>
+        <rdfs:label xml:lang="en">isRhetoricalGroup</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
 
