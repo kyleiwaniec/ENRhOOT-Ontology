@@ -284,7 +284,7 @@
     <owl:ObjectProperty rdf:about="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#isRepeated">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:label xml:lang="en">isRepeated</rdfs:label>
-        <rdfs:label>wirdWiederholt</rdfs:label>
+        <rdfs:label xml:lang="de">wirdWiederholt</rdfs:label>
     </owl:ObjectProperty>
     
 
