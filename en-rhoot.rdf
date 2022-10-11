@@ -4111,9 +4111,9 @@ ont:Zeugma rdf:type owl:NamedIndividual ,
                          "\"He works his work, I mine\""@en ,
                          "\"Ich gehe aus, Baptist! Vor allem davon, dass Sie mir auf meine Talerchen achten!” (Dagobert Duck)"^^xsd:string ,
                          "\"Ich heiße nicht nur Heinz Erhardt, sondern Sie auch herzlich willkommen.” (Heinz Ehrhardt)"^^xsd:string ;
-           rdfs:comment "die Verbindung zweier Nomina durch ein Verb, das, da doppelsinnig, sinngemaeß nur zu einem passt. (Berner)"^^xsd:string ;
-           rdfs:label "From the Greek word ζεύγμα, meaning 'yoke'. A figure of speech in which one word applies to two others in different senses of that word, and in some cases only logically applies to one of the other two words. This is a similar concept to syllepsis."@en ,
-                      "Zeugma"@de ,
+           rdfs:comment "From the Greek word ζεύγμα, meaning 'yoke'. A figure of speech in which one word applies to two others in different senses of that word, and in some cases only logically applies to one of the other two words. This is a similar concept to syllepsis."@en ,
+                        "die Verbindung zweier Nomina durch ein Verb, das, da doppelsinnig, sinngemaeß nur zu einem passt. (Berner)"^^xsd:string ;
+           rdfs:label "Zeugma"@de ,
                       "Zeugma"@en ,
                       "Zeugma"@sr ;
            rdfs:seeAlso "Syllepsis"@en .

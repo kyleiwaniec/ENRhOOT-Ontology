@@ -5211,7 +5211,7 @@ Aus drei Kola [Satzgliedern] zusammengesetztes Satzgefuege (Duden)</rdfs:comment
         <ont:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ich gehe aus, Baptist! Vor allem davon, dass Sie mir auf meine Talerchen achten!” (Dagobert Duck)</ont:isExample>
         <ont:isExample rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Ich heiße nicht nur Heinz Erhardt, sondern Sie auch herzlich willkommen.” (Heinz Ehrhardt)</ont:isExample>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">die Verbindung zweier Nomina durch ein Verb, das, da doppelsinnig, sinngemaeß nur zu einem passt. (Berner)</rdfs:comment>
-        <rdfs:label xml:lang="en">From the Greek word ζεύγμα, meaning &apos;yoke&apos;. A figure of speech in which one word applies to two others in different senses of that word, and in some cases only logically applies to one of the other two words. This is a similar concept to syllepsis.</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">From the Greek word ζεύγμα, meaning &apos;yoke&apos;. A figure of speech in which one word applies to two others in different senses of that word, and in some cases only logically applies to one of the other two words. This is a similar concept to syllepsis.</rdfs:label>
         <rdfs:label xml:lang="de">Zeugma</rdfs:label>
         <rdfs:label xml:lang="en">Zeugma</rdfs:label>
         <rdfs:label xml:lang="sr">Zeugma</rdfs:label>
