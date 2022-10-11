@@ -1,6 +1,6 @@
 # ENRhOOT-Ontology
 ENRhOOT is the English translation of GRhOOT. See below.
-The ontology can be downloaded here: https://kyleiwaniec.github.io/ENRhOOT-Ontology/en-rhoot.owl
+The ontology can be downloaded here: <a href="https://kyleiwaniec.github.io/ENRhOOT-Ontology/en-rhoot.owl">https://kyleiwaniec.github.io/ENRhOOT-Ontology/en-rhoot.owl</a>
 
 # GRhOOT-Ontology
 GRhOOT, the German RhetOrical OnTology, is a domain ontology of rhetorical figures in the German language.
@@ -9,8 +9,8 @@ It contains the formal description of 108 rhetorical figures that exist in the G
 The file ```competency-questions.txt``` shows five competency questions in DL and SPARQL that were used to perform a completeness check on the ontology. \
 An example how to use SPARQL in Python can be found in the file ```Python_SPARQL.py```.
 
-The ontology is available at: https://ramonakuehn.de/grhoot.owl \
-A documentation created with LODE is available at: https://ramonakuehn.de/grhoot_documentation.htm
+The ontology is available at: <a href="https://ramonakuehn.de/grhoot.owl">https://ramonakuehn.de/grhoot.owl</a> \
+A documentation created with LODE is available at: <a href="https://ramonakuehn.de/grhoot_documentation.htm">https://ramonakuehn.de/grhoot_documentation.htm</a>
 
 
 When using the ontology, please cite: \
