@@ -433,6 +433,8 @@
 
     <owl:ObjectProperty rdf:about="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#isRhetoricalGroup">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">isRhetoricalGroup</rdfs:label>
+        <rdfs:label xml:lang="de">istRhetorischeGruppe</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1207,6 +1209,7 @@ Wortspiel aus der Lautaehnlichkeit zweier Woerter oder der aehnlichkeit *eines* 
     <!-- https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#Anticipation -->
 
     <owl:NamedIndividual rdf:about="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#Anticipation">
+        <owl:sameAs rdf:resource="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#Prolepsis"/>
         <rdfs:comment xml:lang="en">In rhetoric, prolepsis is foreseeing and forestalling objections to an argument. Adjective: proleptic. Similar to procatalepsis. Also called anticipation.</rdfs:comment>
         <rdfs:label xml:lang="en">Anticipation</rdfs:label>
         <rdfs:label xml:lang="de">Antizipation</rdfs:label>
@@ -1413,6 +1416,23 @@ Gradation (Stufenfolge) nach unten (anit: gegen, climax: Leiter, Treppe). (Berne
     <!-- https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#Aphorismus -->
 
     <owl:NamedIndividual rdf:about="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#Aphorismus">
+        <rdf:type rdf:resource="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#RhetoricalFigure"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#isLinguisticGroup"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#LinguisticGroup"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#isRhetoricalGroup"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#RhetoricalGroup"/>
+            </owl:Restriction>
+        </rdf:type>
+        <ont:isLinguisticGroup rdf:resource="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#Semantic"/>
+        <ont:isRhetoricalGroup rdf:resource="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#FigureOfSpeech"/>
+        <ont:spans rdf:resource="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#Phrase"/>
+        <ont:spans rdf:resource="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#Sentence"/>
         <ont:isExample xml:lang="en">For you have but mistook me all this while.
 I live with bread like you, feel want,
 Taste grief, need friends: subjected thus,
@@ -2713,6 +2733,10 @@ His tongue is now a stringless instrument [meaning &quot;he died&quot;]
     <owl:NamedIndividual rdf:about="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#FigureOfSpeech">
         <rdf:type rdf:resource="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#RhetoricalGroup"/>
         <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FigureOfSpeech</ont:Name>
+        <rdfs:comment xml:lang="en">GREEK: schemata lexeos</rdfs:comment>
+        <rdfs:comment xml:lang="en">Topics of Invention or Figures of Thought are concerned with WHAT is said while Figures of Speech are concerned with ways of speaking, or HOW it is said.
+
+Figures of speech pertain to verbal expression; figures of thought, to ideas.</rdfs:comment>
         <rdfs:label xml:lang="de">Betonungsfigur</rdfs:label>
         <rdfs:label xml:lang="en">figureOfSpeech</rdfs:label>
     </owl:NamedIndividual>
@@ -2723,6 +2747,12 @@ His tongue is now a stringless instrument [meaning &quot;he died&quot;]
 
     <owl:NamedIndividual rdf:about="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#FigureOfThought">
         <rdf:type rdf:resource="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#RhetoricalGroup"/>
+        <rdfs:comment xml:lang="en">Figures of Thought are also known as Topics of Invention.
+
+Within rhetorical invention, the topics or topoi are basic categories of relationships among ideas, each of which can serve as a template or heuristic for discovering things to say about a subject. &quot;Topics of invention&quot; literally means &quot;places to find things.&quot; Aristotle divided these into the &quot;Common&quot; and &quot;Special&quot; topics of invention, the former being more general, the latter relevant to each of the three branches of oratory.
+
+http://rhetoric.byu.edu/Canons/Invention/topics_of_invention/topics.htm</rdfs:comment>
+        <rdfs:comment xml:lang="en">GREEK: schemata dianoias</rdfs:comment>
         <rdfs:label xml:lang="de">Gedankenfigur</rdfs:label>
         <rdfs:label xml:lang="en">figureOfThought</rdfs:label>
     </owl:NamedIndividual>
@@ -5041,6 +5071,14 @@ Aus drei Kola [Satzgliedern] zusammengesetztes Satzgefuege (Duden)</rdfs:comment
 
     <owl:NamedIndividual rdf:about="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#Trope">
         <rdf:type rdf:resource="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#RhetoricalGroup"/>
+        <rdfs:comment xml:lang="en">&quot;By a trope is meant the artistic alteration of a word or phrase from its proper meaning to another. This is a subject which has given rise to interminable disputes among the teachers of literature, who have quarrelled no less violently with the philosophers than among themselves over the number of the genera and species into which tropes may be divided, their number and their correct classification. I propose to disregard such quibbles as in no wise concern the training of an orator, and to proceed to discuss those tropes which are most necessary and meet with most general acceptance, contenting myself merely with stating the fact that some tropes are employed to help out our meaning and others to adorn our style, that some arise from words used properly and others from words used metaphorically, and that the changes involved concern not merely individual words, but also our thoughts and the structure of our sentences. In view of these facts I regard those writers as mistaken who have held that tropes necessarily involved the substitution of word for word. And I do not ignore the fact that as a rule the tropes employed to express our meaning involve ornament as well, though the converse is not the case, since there are some which are intended solely for the purpose of embellishment.&quot; ~Quintillian
+
+&quot;the commonest and by far the most beautiful of tropes is the metaphor&quot;~Quintillian
+
+https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Quintilian/Institutio_Oratoria/8B*.html#6</rdfs:comment>
+        <rdfs:comment xml:lang="en">Rhetorical tropes are devices of figurative language. They represent a deviation from the common or main significance of a word or phrase (semantic figures) or include specific appeals to the audience (pragmatic figures).
+
+https://www2.anglistik.uni-freiburg.de/intranet/englishbasics/Rhetoricslist.htm</rdfs:comment>
         <rdfs:label xml:lang="en">Trope</rdfs:label>
         <rdfs:label xml:lang="de">Tropenfigur</rdfs:label>
     </owl:NamedIndividual>
@@ -5222,29 +5260,6 @@ Aus drei Kola [Satzgliedern] zusammengesetztes Satzgefuege (Duden)</rdfs:comment
         <rdfs:label xml:lang="sr">Zeugma</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Syllepsis</rdfs:seeAlso>
     </owl:NamedIndividual>
-    
-
-
-    <!-- https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#isRhetoricalGroup -->
-
-    <owl:NamedIndividual rdf:about="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#isRhetoricalGroup">
-        <ont:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isRhetoricalGroup</ont:Name>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="https://github.com/kyleiwaniec/ENRhOOT-Ontology/en-rhoot.owl#isRhetoricalGroup">
-        <rdfs:label xml:lang="de">istRhetorischeGruppe</rdfs:label>
-        <rdfs:label xml:lang="en">isRhetoricalGroup</rdfs:label>
-    </rdf:Description>
 </rdf:RDF>
 
 
